@@ -4,6 +4,14 @@ body {
   margin: 0 auto;
 }
 
+.tic-tac-toe {
+  border: 1px solid #ededed;
+  margin: 50px 0 0 50px;
+  padding: 0;
+  height:300px;
+  width: 400px;
+}
+
 .header {
   text-align: center;
   background-color: #6fcb9f;
@@ -15,7 +23,6 @@ body {
   margin: 0 auto;
   font-size: 20px;
   padding: 5px;
-  font-color:
 }
 
 .top {
@@ -64,14 +71,6 @@ body {
 
 }
 
-.about-section {
-  text-align: left;
-  padding-bottom: 600px;
-  font-size: 18px;
-  margin: 0 auto;
-  max-width: 500px;
-}
-
 #middle {
 
 }
@@ -90,5 +89,13 @@ body {
 .project-section {
   font-family: 'Josefin Slab', serif;
   background-color: #6fcb9f;
-  padding-bottom: 700px;
+  padding-bottom: 370px;
+}
+
+.about-section {
+  text-align: left;
+  padding-bottom: 600px;
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 500px;
 }
