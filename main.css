@@ -118,6 +118,7 @@ body {
 .about-section {
   text-align: left;
   padding-bottom: 600px;
+  padding-top: 100px;
   /* background-color: #faf8f3; */
   font-size: 18px;
   margin: 0 auto;
@@ -125,12 +126,16 @@ body {
 }
 
 .header {
+  font-weight:normal;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
   z-index: 1;
   overflow: hidden;
   text-align: center;
   background-color: #6fcb9f;
   font-family: 'Rasa', serif;
-  /* box-shadow: 5px 1px 1px 0px rgba(1,1,1,0.5); */
+  box-shadow: 1px 1px 1px 1px rgba(1,1,1,0.1);
   position: fixed;
   top: 0;
   width: 100%;
@@ -138,5 +143,16 @@ body {
   margin: 0 auto;
   font-size: 20px;
   padding: 5px;
+  opacity: 1;
+}
+
+.header.shrink {
+    opacity: .6;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.3s;
+}
+
+.header:hover {
   opacity: 1;
 }
