@@ -19,7 +19,7 @@ body {
 
 
 .tic-tac-toe {
-  border: 1px solid #ededed;
+  border: 1px solid black;
   margin: 50px 0 0 50px;
   padding: 0;
   height:300px;
@@ -113,11 +113,12 @@ body {
   font-family: 'Josefin Slab', serif;
   /* background-color: #6fcb9f; */
   padding-bottom: 320px;
+  padding-top: 100px;
 }
 
 .about-section {
   text-align: left;
-  padding-bottom: 600px;
+  padding-bottom: 200px;
   padding-top: 100px;
   /* background-color: #faf8f3; */
   font-size: 18px;
@@ -125,6 +126,9 @@ body {
   box-shadow: 5px 1px 1px 0px rgba(1,1,1,0.5);
 }
 
+.skill-logo {
+  font-size: 4rem;
+}
 .header {
   font-weight:normal;
   -webkit-transition: all 0.3s;
